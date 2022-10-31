@@ -14,11 +14,21 @@ import RefDemo from './components/RefDemo';
 import FocusInput from './components/FocusInput';
 import FRParentRef from './components/FRParentRef';
 import PortalDemo from './components/PortalDemo';
+import Hero from './components/Hero';
+import ErrorBoundary from './components/ErrorBoundary';
+import ClickCounter from './components/ClickCounter';
+import HoverCounter from './components/HoverCounter';
 
 function App() {
   return (
     <div className="App">
-      <PortalDemo />
+      <ClickCounter />
+      <HoverCounter />
+      {/* <ErrorBoundary>
+      <Hero heroName="batman" />
+      <Hero heroName="superman" />
+      <Hero heroName= "Joker"/>
+      </ErrorBoundary> */}
     </div>
   );
 }
