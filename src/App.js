@@ -1,23 +1,24 @@
 import logo from './logo.svg';
 import './App.css';
+import Welcome from './components/Welcome';
+import Counter from './components/Counter';
+import ParentComponent from './components/ParentComponent';
+import UserGreeting from './components/UserGreeting';
+import Form from './components/Form';
+import LifecycleA from './components/LifecycleA';
+import Header from './components/FavColor';
+import FragementDemo from './components/FragementDemo';
+import Table from './components/Table';
+import PureComp from './components/PureComp';
+import RefDemo from './components/RefDemo';
+import FocusInput from './components/FocusInput';
+import FRParentRef from './components/FRParentRef';
+import PortalDemo from './components/PortalDemo';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <PortalDemo />
     </div>
   );
 }
