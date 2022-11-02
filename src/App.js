@@ -26,11 +26,16 @@ import ComponentC from './components/ComponentC';
 import { UserProvider } from './components/userContext';
 import ClassCounter from './components/ClassCounter';
 import HookCounter from './components/HookCounter';
+import ClassCounterTwo from './components/ClassCounterTwo';
+import HookCounterTwo from './components/HookCounterTwo';
+import ClassMouse from './components/ClassMouse';
+import HookMouse from './components/HookMouse';
+import MouseContainer from './components/MouseContainer';
 
 function App() {
   return (
     <div className="App">
-      <HookCounter />
+      <MouseContainer />
     </div>
   );
 }
