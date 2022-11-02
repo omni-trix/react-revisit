@@ -31,11 +31,13 @@ import HookCounterTwo from './components/HookCounterTwo';
 import ClassMouse from './components/ClassMouse';
 import HookMouse from './components/HookMouse';
 import MouseContainer from './components/MouseContainer';
+import IntervalClassCounter from './components/IntervalClassCounter';
+import IntervalHookContainer from './components/IntervalHookContainer';
 
 function App() {
   return (
     <div className="App">
-      <MouseContainer />
+      <IntervalHookContainer />
     </div>
   );
 }
