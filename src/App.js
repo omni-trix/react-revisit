@@ -24,13 +24,13 @@ import User from './components/User';
 import CounterTwo from './components/CounterTwo';
 import ComponentC from './components/ComponentC';
 import { UserProvider } from './components/userContext';
+import ClassCounter from './components/ClassCounter';
+import HookCounter from './components/HookCounter';
 
 function App() {
   return (
     <div className="App">
-      <UserProvider value = "Pravesh">
-      <ComponentC />
-      </UserProvider>
+      <HookCounter />
     </div>
   );
 }
