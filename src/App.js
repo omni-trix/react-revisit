@@ -33,11 +33,13 @@ import HookMouse from './components/HookMouse';
 import MouseContainer from './components/MouseContainer';
 import IntervalClassCounter from './components/IntervalClassCounter';
 import IntervalHookContainer from './components/IntervalHookContainer';
+import CounterOne from './components/CounterOne';
+import CounterThree from './components/CounterThree';
 
 function App() {
   return (
     <div className="App">
-      <IntervalHookContainer />
+      <CounterThree />
     </div>
   );
 }
